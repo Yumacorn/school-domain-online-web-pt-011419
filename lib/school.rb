@@ -13,8 +13,8 @@ class School
   end
 
   def add_student(name, grade_hash)
-    @roster[grade_hash] = [] if @roster[grade_hash] == nil
-    @roster[grade_hash] << name
+    @roster[:grade_hash] = [] if @roster[:grade_hash] == nil
+    @roster[:grade_hash] << name
   end
 
   def grade(grade)
