@@ -26,7 +26,7 @@ class School
         binding.pry
 
         studentlist.sort
-      end
+
     end
   end
 end
