@@ -15,7 +15,6 @@ class School
   def add_student(name, grade_hash)
     @roster[grade_hash] = [] if @roster[grade_hash] == nil
     @roster[grade_hash] << name
-    binding.pry
   end
 
   def grade(grade)
