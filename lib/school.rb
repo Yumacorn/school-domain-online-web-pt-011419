@@ -28,7 +28,7 @@ class School
       binding.pry
 
       # grade.each do |studentlist|
-      end
+      
     end
     @roster
   end
