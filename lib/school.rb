@@ -24,7 +24,6 @@ class School
   def sort
     @roster.each do |grade, studentlist|
       studentlist.sort!
-      # grade.each do |studentlist|
     end
     @roster
   end
