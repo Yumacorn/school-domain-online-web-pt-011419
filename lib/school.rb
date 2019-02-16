@@ -14,7 +14,7 @@ class School
   end
 
   def add_student(name, grade)
-    @roster[grade] do |gradelevel|
+    @roster[grade].each do |gradelevel|
       binding.pry
 
       gradelevel << name
