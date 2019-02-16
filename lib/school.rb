@@ -18,5 +18,6 @@ class School
       binding.pry
 
       gradelevel << name
+    end
   end
 end
