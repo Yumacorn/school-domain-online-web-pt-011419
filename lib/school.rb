@@ -17,6 +17,7 @@ class School
     if @roster[grade] != nil
       @roster[grade] = []
     end
+    binding.pry
     @roster[grade] << name
   end
 end
