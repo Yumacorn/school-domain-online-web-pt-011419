@@ -22,5 +22,6 @@ class School
   end
 
   def sort
+    @roster
   end
 end
