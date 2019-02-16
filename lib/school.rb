@@ -24,8 +24,9 @@ class School
   def sort
     @roster.each do |grade_hash|
       grade_hash.each do |grade, student|
-        student.sort
         binding.pry
+
+        student.sort
       end
     end
   end
