@@ -12,9 +12,9 @@ class School
     @roster
   end
 
-  def add_student(name, grade)
-    @roster[grade] = [] if @roster[grade] == nil
-    @roster[grade] << name
+  def add_student(name, grade_hash)
+    @roster[grade_hash] = [] if @roster[grade_hash] == nil
+    @roster[grade_hash] << name
   end
 
   def grade(grade)
@@ -22,8 +22,8 @@ class School
   end
 
   def sort
-    @roster.each do |grade|
-      grade.each do |student|
+    @roster.each do |grade_hash|
+      grade_hash.each do |student|
         binding.pry
       end
     end
