@@ -26,7 +26,7 @@ class School
       grade_hash.each do |grade, studentlist|
         binding.pry
 
-        student.sort
+        studentlist.sort
       end
     end
   end
