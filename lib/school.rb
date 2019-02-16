@@ -27,7 +27,7 @@ class School
       studentlist.sort!
       binding.pry
 
-      grade.each do |studentlist|
+      # grade.each do |studentlist|
       end
     end
     @roster
